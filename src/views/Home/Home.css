@@ -1,0 +1,29 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-img {
+  width: auto;
+  height: 50vh;
+  opacity: 0.7;
+  color: #111c1e;
+}
+
+.home-name {
+  font-size: 1.9rem;
+  padding-bottom: 0.5em;
+  font-weight: normal;
+}
+
+.home-title {
+  font-size: 1rem;
+  padding: 0.5em 0 3em 0;
+  align-self: flex-end;
+  font-weight: normal;
+  color: #111c1e;
+}
+
+.btn {
+  align-self: flex-end;
+}

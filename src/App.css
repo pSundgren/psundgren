@@ -1,0 +1,75 @@
+body {
+  background-color: #f6f0ec;
+}
+
+.app-container {
+  font-family: 'Playfair Display', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  padding: 0;
+  margin: 0 auto;
+  width: 80vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::selection {
+  background: #1b455d;
+  color: #f6f0ec;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+
+  transition: 0.2s ease-in-out;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1rem;
+  margin: 1em auto;
+  width: 80vw;
+}
+
+.menu-item {
+  font-family: 'Sen', sans-serif;
+  padding: 0 0.8em;
+  color: #111c1e;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  font-size: 0.8rem;
+  font-family: 'Sen', sans-serif;
+  align-self: flex-start;
+}
+
+.btn {
+  font-family: 'Sen', sans-serif;
+  padding: 0.5em 1em;
+  border-radius: 10em;
+  border: 0.1em solid #1b455d;
+  width: 10em;
+  background-color: transparent;
+  color: #1b455d;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
