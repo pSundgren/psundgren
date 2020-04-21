@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 /* Own imports */
 import Home from './views/Home/Home';
 import About from './views/About/About';
+import Experience from './views/Experience/Experience';
 import Footer from './components/Footer/Footer';
 import './App.css';
 
@@ -36,7 +37,7 @@ function AppSwitch() {
           <h1>Welcome to goals!</h1>
         </Route>
         <Route path="/experience">
-          <h1>Welcome to experiences!</h1>
+          <Experience />
         </Route>
         <Route path="/about">
           <About />

@@ -1,0 +1,18 @@
+.experience-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-img {
+  width: 2em;
+  height: auto;
+}
+
+.experience-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-title {
+  font-weight: normal;
+}

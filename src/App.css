@@ -9,12 +9,21 @@ body {
 
   padding: 0;
   margin: 0 auto;
-  width: 80vw;
+  max-width: 60vw;
   height: 100vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media (max-width: 770px) {
+  .app-container {
+    max-width: 85vw;
+  }
 }
 
 ::selection {
@@ -27,6 +36,10 @@ body {
   margin: 0;
 
   transition: 0.2s ease-in-out;
+}
+
+p {
+  font-family: 'Sen', sans-serif;
 }
 
 nav {

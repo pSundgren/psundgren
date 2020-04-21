@@ -1,6 +1,7 @@
 import React from 'react';
 
 import FooterItem from './FooterItem';
+import * as data from '../../data/Footer.json';
 import './Footer.css';
 
 function Footer() {
@@ -9,42 +10,34 @@ function Footer() {
       <ul className="footer-list">
         <FooterItem
           imgPath={require('../../images/github-white.png')}
-          linkPath="https://github.com/pSundgren/"
+          linkPath={data.github}
           title="GitHub"
         />
         <FooterItem
           imgPath={require('../../images/linkedin-white.png')}
-          linkPath="https://www.linkedin.com/in/pontus-sundgren/"
+          linkPath={data.linkedin}
           title="LinkedIn"
         />
         <FooterItem
           imgPath={require('../../images/instagram-white.png')}
-          linkPath="https://twitter.com/pontusundgren"
+          linkPath={data.instagram}
           title="Instagram"
         />
         <FooterItem
           imgPath={require('../../images/twitter-white.png')}
-          linkPath="https://twitter.com/pontusundgren/"
+          linkPath={data.twitter}
           title="Twitter"
         />
       </ul>
       <ul className="footer-list">
         <FooterItem
-          imgPath={require('../../images/linkedin-white.png')}
+          imgPath={require('../../images/place-white.png')}
           title="Umeå, Sweden"
         />
         <FooterItem
-          imgPath={require('../../images/linkedin-white.png')}
+          imgPath={require('../../images/mail-white.png')}
           linkPath="mailto:sundgren.pontus@gmail.com"
-          title="Mail"
-        />
-      </ul>
-      <ul className="footer-list">
-        <FooterItem linkPath="https://reactjs.org/" title="React" />
-        <FooterItem title="JavaScript" />
-        <FooterItem
-          linkPath="https://github.com/pSundgren/psundgren.com"
-          title="Repository"
+          title="sundgren.pontus@gmail.com"
         />
       </ul>
     </div>
