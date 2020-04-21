@@ -9,6 +9,7 @@ function Experience() {
   return (
     <div>
       <FadeIn>
+        <h1 className="heading">My experience</h1>
         {data.experiences.map((exp) => {
           return (
             <ExperienceItem

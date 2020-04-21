@@ -12,17 +12,16 @@
   .experience-img {
     align-self: center;
 
-    width: 20em;
-    height: 20em;
-    padding: 0;
-    border: 1px solid red;
+    width: 15em;
+    height: 15em;
+    padding: 0 0 2em 0;
   }
 }
 
 .experience-img {
   width: 10em;
   height: 10em;
-  padding-right: 2em;
+  padding: 0 2em 0 0;
 }
 
 .experience-text {

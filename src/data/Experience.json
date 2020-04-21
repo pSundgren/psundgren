@@ -8,9 +8,9 @@
     },
     {
       "imgPath": "../../images/mail-white.png",
-      "title": "Online portfolio",
-      "desc": "This portfolio was made by me using React and JavaScript. The design was made in Adobe Xd and the data of the portfolio is not hardcoded and the portfolio can easly be modified.",
-      "skills": ["React", "JavaScript", "Adobe Xd", "Github Pages"]
+      "title": "Summer internship as a software developer",
+      "desc": "During the summer of 2019 I worked as a software developer at a consulting firm. I worked on an inhouse project that still is under development today and is planned to be used at a day-to-day basis. During this summer my main task was design and front-end development but it also included back-end development and testing.",
+      "skills": ["React", "TypeScript", "Redux", "C#", ".NET Core 2"]
     }
   ]
 }
