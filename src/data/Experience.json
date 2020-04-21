@@ -1,3 +1,16 @@
 {
-  "big": "yeet"
+  "experiences": [
+    {
+      "imgPath": "../../images/mail-white.png",
+      "title": "Online portfolio",
+      "desc": "This portfolio was made by me using React and JavaScript. The design was made in Adobe Xd and the data of the portfolio is not hardcoded and the portfolio can easly be modified.",
+      "skills": ["React", "JavaScript", "Adobe Xd", "Github Pages"]
+    },
+    {
+      "imgPath": "../../images/mail-white.png",
+      "title": "Online portfolio",
+      "desc": "This portfolio was made by me using React and JavaScript. The design was made in Adobe Xd and the data of the portfolio is not hardcoded and the portfolio can easly be modified.",
+      "skills": ["React", "JavaScript", "Adobe Xd", "Github Pages"]
+    }
+  ]
 }

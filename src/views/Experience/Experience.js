@@ -9,7 +9,17 @@ function Experience() {
   return (
     <div>
       <FadeIn>
-        <ExperienceItem title="Online portfolio" desc="I made thius hehe" />
+        {data.experiences.map((exp) => {
+          return (
+            <ExperienceItem
+              imgPath={''}
+              title={exp.title}
+              desc={exp.desc}
+              skills={exp.skills}
+              key={exp.title}
+            />
+          );
+        })}
       </FadeIn>
     </div>
   );

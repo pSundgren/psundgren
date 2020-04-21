@@ -1,0 +1,10 @@
+.skill {
+  border-radius: 100em;
+  background-color: #608ea3;
+  color: #f6f0ec;
+  margin: 1em 1em 1em 0;
+  padding: 0.5em 1em;
+  font-size: 0.7rem;
+
+  white-space: nowrap;
+}
