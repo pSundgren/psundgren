@@ -1,30 +1,33 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-/* Own imports */
+/* Header items */
+import HomeLink from './components/SVGLink/HomeLink';
+import GithubLink from './components/SVGLink/GithubLink';
+import LinkedinLink from './components/SVGLink/LinkedinLink';
+import TwitterLink from './components/SVGLink/TwitterLink';
+import InstagramLink from './components/SVGLink/InstagramLink';
+
+/* Views */
 import Home from './views/Home/Home';
 import About from './views/About/About';
 import Experience from './views/Experience/Experience';
 import Footer from './components/Footer/Footer';
+
+/* Styling */
 import './App.css';
 
 /* Navbar for the app */
-function NavBar() {
+function Header() {
   return (
-    <nav>
-      <Link to="/" className="menu-item">
-        HOME
-      </Link>
-      <Link to="/about" className="menu-item">
-        ABOUT
-      </Link>
-      <Link to="/experience" className="menu-item">
-        EXPERIENCE
-      </Link>
-      <Link to="/goals" className="menu-item">
-        GOALS
-      </Link>
-    </nav>
+    <header>
+      <HomeLink />
+      <hr className="divider" />
+      <GithubLink />
+      <LinkedinLink />
+      <TwitterLink />
+      <InstagramLink />
+    </header>
   );
 }
 
@@ -55,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <NavBar />
+        <Header />
         <AppSwitch />
       </Router>
       <Footer />

@@ -15,6 +15,7 @@ function Experience() {
             <ExperienceItem
               imgPath={''}
               title={exp.title}
+              employer={exp.employer}
               desc={exp.desc}
               skills={exp.skills}
               key={exp.title}

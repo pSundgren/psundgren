@@ -1,26 +1,20 @@
 .experience-body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 3em 0 3em 0;
 }
 
+.ecperience-heading {
+  display: flex;
+  flex-direction: row;
+}
+
 @media (max-width: 770px) {
-  .experience-body {
-    flex-direction: column;
-  }
-
-  .experience-img {
-    align-self: center;
-
-    width: 15em;
-    height: 15em;
-    padding: 0 0 2em 0;
-  }
 }
 
 .experience-img {
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
   padding: 0 2em 0 0;
 }
 
@@ -31,6 +25,7 @@
 
 .experience-title {
   font-weight: normal;
+  padding: 0 0 0.5em 0;
 }
 
 .skill-container {

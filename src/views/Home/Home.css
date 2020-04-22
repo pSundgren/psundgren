@@ -1,29 +1,42 @@
 .home-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .home-img {
   width: auto;
   height: 50vh;
+  margin-right: 2em;
   opacity: 0.8;
-  color: #111c1e;
 }
 
-.heading {
-  font-size: 1.9rem;
-  padding-bottom: 0.5em;
+.home-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-name {
+  color: #111c1e;
+  font-size: normal;
   font-weight: normal;
 }
 
-.sub-heading {
-  font-size: 1rem;
-  padding: 0.5em 0 3em 0;
-  align-self: flex-end;
-  font-weight: normal;
+.home-title {
   color: #111c1e;
+  font-size: medium;
+  font-weight: normal;
+  margin-bottom: 2em;
 }
 
-.btn {
-  align-self: flex-end;
+.home-paragraf {
+  color: #111c1e;
+  font-size: small;
+  margin-bottom: 2em;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
 }

@@ -1,9 +1,7 @@
 .skill {
-  border-radius: 100em;
-  background-color: #608ea3;
-  color: #f6f0ec;
+  color: #608ea3;
   margin: 1em 1em 0 0;
-  padding: 0.5em 1em;
+  padding: 0.5em 1em 0.5em 0;
   font-size: 0.7rem;
 
   white-space: nowrap;

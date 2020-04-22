@@ -9,8 +9,10 @@ body {
 
   padding: 0;
   margin: 0 auto;
+
+  height: 100%;
   max-width: 60vw;
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -23,6 +25,10 @@ body {
 @media (max-width: 770px) {
   .app-container {
     max-width: 85vw;
+  }
+
+  nav {
+    flex-direction: row;
   }
 }
 
@@ -42,19 +48,31 @@ p {
   font-family: 'Sen', sans-serif;
 }
 
-nav {
+span {
+  color: #8f989f;
+}
+
+header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  font-size: 1rem;
-  margin: 1em auto;
+  align-items: center;
+  font-size: small;
+  margin: 2em auto;
   width: 80vw;
 }
 
 .menu-item {
-  font-family: 'Sen', sans-serif;
-  padding: 0 0.8em;
-  color: #111c1e;
+  margin-right: 1em;
+}
+
+.divider {
+  background-color: #8f989f;
+  border: none;
+  border-radius: 100em;
+
+  width: 1px;
+  height: 2em;
+  margin: 0 1em 0 0;
 }
 
 li {
@@ -65,24 +83,15 @@ li {
   align-self: flex-start;
 }
 
-.btn {
-  font-family: 'Sen', sans-serif;
-  padding: 0.5em 1em;
-  border-radius: 10em;
-  border: 0.1em solid #1b455d;
-  width: 10em;
-  background-color: transparent;
-  color: #1b455d;
-  cursor: pointer;
-  opacity: 0.5;
-  transition: 0.2s ease-in-out;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
 a {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-size: 1.9rem;
+  padding-bottom: 0.5em;
+  font-weight: normal;
 }
