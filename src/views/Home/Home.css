@@ -8,6 +8,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .home-buttons {
+    align-self: center;
+  }
 }
 
 .home-img {
@@ -15,13 +19,15 @@
   max-width: 20em;
   height: auto;
   opacity: 0.8;
+  margin: 0 2em;
 }
 
 .home-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2em;
+  margin: 2em 0;
+  max-width: 30em;
 }
 
 .home-name {
@@ -47,4 +53,5 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 2em;
+  justify-items: center;
 }

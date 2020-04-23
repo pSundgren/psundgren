@@ -18,3 +18,17 @@
   height: 1em;
   padding-right: 0.3em;
 }
+
+.footer-svg {
+  width: 1em;
+  height: auto;
+  fill: #f6f0ec !important;
+  padding-right: 0.5em;
+}
+
+li {
+  display: flex;
+  list-style: none;
+  font-size: small;
+  font-family: 'Sen', sans-serif;
+}
