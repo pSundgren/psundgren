@@ -19,21 +19,9 @@ function Home() {
           <h2 className="home-title">{data.title}</h2>
           <p className="home-paragraf">{data.about}</p>
           <div className="home-buttons">
-            <Button
-              to="/experience"
-              title="Work"
-              img={require('../../images/svgs/work.svg')}
-            />
-            <Button
-              to="/experience"
-              title="Experience"
-              img={require('../../images/svgs/experience.svg')}
-            />
-            <Button
-              to="/experience"
-              title="Projects"
-              img={require('../../images/svgs/project.svg')}
-            />
+            <Button to="/work" type="work" title="Work" />
+            <Button to="/experience" type="experience" title="Experience" />
+            <Button to="/projects" type="project" title="Projects" />
           </div>
           <p className="home-paragraf">
             If you want to know more about my work histoty, my experiences away

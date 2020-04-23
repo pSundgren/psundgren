@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FooterItem from './FooterItem';
+/* Styling */
 import './Footer.css';
 
 function Footer() {

@@ -27,3 +27,8 @@ button:hover {
   width: auto;
   padding-right: 1em;
 }
+
+.button-svg {
+  fill: #1b455d;
+  padding-right: 1em;
+}

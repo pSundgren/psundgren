@@ -10,8 +10,10 @@ import InstagramLink from './components/SVGLink/InstagramLink';
 
 /* Views */
 import Home from './views/Home/Home';
-import About from './views/About/About';
 import Experience from './views/Experience/Experience';
+
+/* Components */
+import ContactBar from './components/ContactBar/ContactBar';
 import Footer from './components/Footer/Footer';
 
 /* Styling */
@@ -36,14 +38,14 @@ function AppSwitch() {
   return (
     <div className="app-container">
       <Switch>
-        <Route path="/goals">
-          <h1>Welcome to goals!</h1>
+        <Route path="/projects">
+          <h1>Welcome to projects!</h1>
         </Route>
         <Route path="/experience">
           <Experience />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route path="/work">
+          <h1>Welcome to work!</h1>
         </Route>
         <Route path="/">
           <Home />
@@ -61,6 +63,7 @@ function App() {
         <Header />
         <AppSwitch />
       </Router>
+      <ContactBar />
       <Footer />
     </div>
   );
