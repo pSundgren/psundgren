@@ -1,27 +1,27 @@
 {
   "experiences": [
     {
-      "imgPath": "../../images/mail-white.png",
+      "title": "Event volunteer at Noridc.js",
+      "employer": "Confetti",
+      "desc": "I got the oppertunity to work as a volunteer during the 2019 conference of Nordic.js and Nordic.design. I was a part of the social media team which mean I was responsible for the social media channels of the evvent such as twitter, facebook, twitch, instagram and also the support queue. This was a really fun event to be a part of and if you haven't attended yet I highly recommend it!",
+      "skills": [""]
+    }
+  ],
+  "work": [
+    {
+      "title": "Software developer",
+      "employer": "Acino AB",
+      "desc": "During the summer of 2019 I worked as a software developer at a consulting firm. I worked on an inhouse project that still is under development today and is planned to be used at a day-to-day basis. During this summer my main task was design and front-end development but it also included back-end development and testing.",
+      "skills": ["React", "TypeScript", "Redux", "C#", ".NET Core 2"]
+    }
+  ],
+  "projects": [
+    {
       "title": "This portfolio",
       "desc": "To further work on my skill with web development / design I created this online portfolio using React after designing it in Adobe Xd. The portfolio is strucured in a way that all the information (e.g. these experiences) are stored within .json files. This is to made it easier to modify the data but also so that anyone can use the this portfolio as a template.",
       "skills": ["React", "JavaScript", "Adobe Xd", "Github Pages"]
     },
     {
-      "imgPath": "../../images/mail-white.png",
-      "title": "Software developer",
-      "employer": "Acino AB",
-      "desc": "During the summer of 2019 I worked as a software developer at a consulting firm. I worked on an inhouse project that still is under development today and is planned to be used at a day-to-day basis. During this summer my main task was design and front-end development but it also included back-end development and testing.",
-      "skills": ["React", "TypeScript", "Redux", "C#", ".NET Core 2"]
-    },
-    {
-      "imgPath": "../../images/mail-white.png",
-      "title": "Event volunteer at Noridc.js",
-      "employer": "Confetti",
-      "desc": "I got the oppertunity to work as a volunteer during the 2019 conference of Nordic.js and Nordic.design. I was a part of the social media team which mean I was responsible for the social media channels of the evvent such as twitter, facebook, twitch, instagram and also the support queue. This was a really fun event to be a part of and if you haven't attended yet I highly recommend it!",
-      "skills": [""]
-    },
-    {
-      "imgPath": "../../images/mail-white.png",
       "title": "Poorpeon.io",
       "desc": "During Nordic.js 2019 I got inspired by a talk by Sara Vieira to 'create dumb shit' as a way of learning more about different frameworks and development enviroments. As a result I decided to learn more about Socket.io and I created Poorpeon.io - a website with no real purpose but to come together and help a peon from warcraft 3 to build a barracks.",
       "skills": ["React", "JavaScript", "Socket.io"]

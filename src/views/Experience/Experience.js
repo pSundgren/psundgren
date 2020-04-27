@@ -1,16 +1,49 @@
 import React from 'react';
-
-import * as data from '../../data/Experience.json';
-import ExperienceItem from '../../components/ExperienceItem/ExperienceItem';
-import './Experience.css';
 import FadeIn from 'react-fade-in';
 
-function Experience() {
+/* Components */
+import ExperienceItem from '../../components/ExperienceItem/ExperienceItem';
+import Button from '../../components/Button/Button';
+
+/* Styling */
+import './Experience.css';
+
+/* Renders nav buttons depending on mode */
+function renderNavButtons(type) {
+  switch (type) {
+    case 'work':
+      return (
+        <div className="nav-buttons">
+          <Button to="/" type="home" title="Home" />
+          <Button to="/experience" type="experience" title="Experience" />
+          <Button to="/projects" type="project" title="Projects" />
+        </div>
+      );
+    case 'experience':
+      return (
+        <div className="nav-buttons">
+          <Button to="/" type="home" title="Home" />
+          <Button to="/work" type="work" title="Work" />
+          <Button to="/projects" type="project" title="Projects" />
+        </div>
+      );
+    default:
+      return (
+        <div className="nav-buttons">
+          <Button to="/" type="home" title="Home" />
+          <Button to="/work" type="work" title="Work" />
+          <Button to="/experience" type="experience" title="Experience" />
+        </div>
+      );
+  }
+}
+
+function Experience(props) {
   return (
     <div>
-      <FadeIn>
-        <h1 className="heading">My experience</h1>
-        {data.experiences.map((exp) => {
+      <h1 className="heading">{props.children}</h1>
+      <div className="exp-container">
+        {props.data.map((exp) => {
           return (
             <ExperienceItem
               imgPath={''}
@@ -22,7 +55,8 @@ function Experience() {
             />
           );
         })}
-      </FadeIn>
+      </div>
+      {renderNavButtons(props.type)}
     </div>
   );
 }

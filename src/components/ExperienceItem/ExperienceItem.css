@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: column;
   margin: 3em 0 3em 0;
+  max-width: 40em;
 }
 
-.ecperience-heading {
+.experience-heading {
   display: flex;
   flex-direction: row;
 }
@@ -18,13 +19,8 @@
   padding: 0 2em 0 0;
 }
 
-.experience-text {
-  display: flex;
-  flex-direction: column;
-}
-
 .experience-title {
-  font-weight: normal;
+  font-weight: lighter;
   padding: 0 0 0.5em 0;
 }
 

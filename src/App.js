@@ -16,8 +16,12 @@ import Experience from './views/Experience/Experience';
 import ContactBar from './components/ContactBar/ContactBar';
 import Footer from './components/Footer/Footer';
 
+/* Data */
+import * as data from './data/Experience.json';
+
 /* Styling */
 import './App.css';
+import FadeIn from 'react-fade-in';
 
 /* Navbar for the app */
 function Header() {
@@ -39,13 +43,25 @@ function AppSwitch() {
     <div className="app-container">
       <Switch>
         <Route path="/projects">
-          <h1>Welcome to projects!</h1>
+          <FadeIn>
+            <Experience type="projects" data={data.experiences}>
+              My projects
+            </Experience>
+          </FadeIn>
         </Route>
         <Route path="/experience">
-          <Experience />
+          <FadeIn>
+            <Experience type="experience" data={data.projects}>
+              My projects
+            </Experience>
+          </FadeIn>
         </Route>
         <Route path="/work">
-          <h1>Welcome to work!</h1>
+          <FadeIn>
+            <Experience type="work" data={data.work}>
+              My work
+            </Experience>
+          </FadeIn>
         </Route>
         <Route path="/">
           <Home />
