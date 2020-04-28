@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 /* Styling */
 import './SVGLink.css';
 
+/* Main render function */
 function HomeLink() {
   return (
     <Link to="/" className="menu-item">

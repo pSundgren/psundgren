@@ -6,6 +6,7 @@ import * as data from '../../data/SocialLinks.json';
 /* Styling */
 import './SVGLink.css';
 
+/* Main render function */
 function InstagramLink() {
   return (
     <a href={data.instagram} target="_blank" rel="noopener noreferrer">

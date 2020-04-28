@@ -10,18 +10,16 @@ import InstagramLink from './components/SVGLink/InstagramLink';
 
 /* Views */
 import Home from './views/Home/Home';
-import Experience from './views/Experience/Experience';
+import Exp from './views/Exp/Exp';
+import Projects from './views/Projects/Projects';
+import Work from './views/Work/Work';
 
 /* Components */
 import ContactBar from './components/ContactBar/ContactBar';
 import Footer from './components/Footer/Footer';
 
-/* Data */
-import * as data from './data/Experience.json';
-
 /* Styling */
 import './App.css';
-import FadeIn from 'react-fade-in';
 
 /* Navbar for the app */
 function Header() {
@@ -43,25 +41,13 @@ function AppSwitch() {
     <div className="app-container">
       <Switch>
         <Route path="/projects">
-          <FadeIn>
-            <Experience type="projects" data={data.experiences}>
-              My projects
-            </Experience>
-          </FadeIn>
+          <Projects />
         </Route>
         <Route path="/experience">
-          <FadeIn>
-            <Experience type="experience" data={data.projects}>
-              My projects
-            </Experience>
-          </FadeIn>
+          <Exp />
         </Route>
         <Route path="/work">
-          <FadeIn>
-            <Experience type="work" data={data.work}>
-              My work
-            </Experience>
-          </FadeIn>
+          <Work />
         </Route>
         <Route path="/">
           <Home />

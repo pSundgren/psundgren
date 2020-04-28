@@ -1,8 +1,17 @@
+.experience {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+  margin: 2em 0;
+}
+
 .experience-body {
   display: flex;
   flex-direction: column;
-  margin: 3em 0 3em 0;
-  max-width: 40em;
+  margin: auto 0;
+  max-width: 15em;
 }
 
 .experience-heading {
@@ -11,17 +20,28 @@
 }
 
 @media (max-width: 770px) {
+  .experience {
+    flex-direction: column;
+  }
 }
 
 .experience-img {
-  width: 15em;
-  height: 15em;
-  padding: 0 2em 0 0;
+  width: 100%;
+  height: auto;
+  max-width: 10em;
+  margin: 1em;
+  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.2);
 }
 
 .experience-title {
-  font-weight: lighter;
+  font-weight: normal;
+  font-size: large;
   padding: 0 0 0.5em 0;
+}
+
+.experience-desc {
+  font-size: small;
+  font-weight: normal;
 }
 
 .skill-container {

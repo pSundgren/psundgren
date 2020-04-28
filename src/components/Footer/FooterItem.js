@@ -1,7 +1,9 @@
 import React from 'react';
 
+/* Styling */
 import './Footer.css';
 
+/* Main render function */
 function FooterItem(props) {
   return (
     <li>

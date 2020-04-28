@@ -1,8 +1,8 @@
 import React from 'react';
 
 /* Components */
-import ExperienceItem from '../../components/ExperienceItem/ExperienceItem';
-import Button from '../../components/Button/Button';
+import ExperienceItem from '../ExperienceItem/ExperienceItem';
+import Button from '../Button/Button';
 
 /* Styling */
 import './Experience.css';
@@ -37,24 +37,22 @@ function renderNavButtons(type) {
   }
 }
 
+/* Main render function */
 function Experience(props) {
   return (
     <div>
-      <h1 className="heading">{props.children}</h1>
-      <div className="exp-container">
-        {props.data.map((exp) => {
-          return (
-            <ExperienceItem
-              imgPath={''}
-              title={exp.title}
-              employer={exp.employer}
-              desc={exp.desc}
-              skills={exp.skills}
-              key={exp.title}
-            />
-          );
-        })}
-      </div>
+      {props.data.map((exp) => {
+        return (
+          <ExperienceItem
+            img={require('../../images/' + exp.imgPath)}
+            title={exp.title}
+            employer={exp.employer}
+            desc={exp.desc}
+            skills={exp.skills}
+            key={exp.title}
+          />
+        );
+      })}
       {renderNavButtons(props.type)}
     </div>
   );

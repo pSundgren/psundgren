@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+/* Styling */
 import './Button.css';
 
+/* Main render function */
 function RenderSVG(type) {
   switch (type) {
     case 'work':

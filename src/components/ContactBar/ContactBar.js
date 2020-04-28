@@ -3,6 +3,7 @@ import React from 'react';
 /* Styling */
 import './ContactBar.css';
 
+/* Main render function */
 function ContactBar() {
   return (
     <div className="contact-bar">
