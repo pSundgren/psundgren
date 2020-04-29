@@ -14,15 +14,6 @@ function renderNavButtons(type) {
       return (
         <div className="nav-buttons">
           <Button to="/" type="home" title="Home" />
-          <Button to="/experience" type="experience" title="Experience" />
-          <Button to="/projects" type="project" title="Projects" />
-        </div>
-      );
-    case 'experience':
-      return (
-        <div className="nav-buttons">
-          <Button to="/" type="home" title="Home" />
-          <Button to="/work" type="work" title="Work" />
           <Button to="/projects" type="project" title="Projects" />
         </div>
       );
@@ -31,7 +22,6 @@ function renderNavButtons(type) {
         <div className="nav-buttons">
           <Button to="/" type="home" title="Home" />
           <Button to="/work" type="work" title="Work" />
-          <Button to="/experience" type="experience" title="Experience" />
         </div>
       );
   }

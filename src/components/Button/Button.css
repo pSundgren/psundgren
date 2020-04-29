@@ -26,9 +26,3 @@ button:hover {
   fill: #1b455d;
   padding-right: 0.5em;
 }
-
-@media (max-width: 460px) {
-  .button-svg {
-    display: none;
-  }
-}

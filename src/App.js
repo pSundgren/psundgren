@@ -10,7 +10,6 @@ import InstagramLink from './components/SVGLink/InstagramLink';
 
 /* Views */
 import Home from './views/Home/Home';
-import Exp from './views/Exp/Exp';
 import Projects from './views/Projects/Projects';
 import Work from './views/Work/Work';
 
@@ -42,9 +41,6 @@ function AppSwitch() {
       <Switch>
         <Route path="/projects">
           <Projects />
-        </Route>
-        <Route path="/experience">
-          <Exp />
         </Route>
         <Route path="/work">
           <Work />

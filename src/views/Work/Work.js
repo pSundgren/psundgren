@@ -7,9 +7,6 @@ import Experience from '../../components/Experience/Experience';
 /* Data */
 import * as data from '../../data/Experience.json';
 
-/* Styling */
-import './Work.css';
-
 function Work() {
   return (
     <FadeIn>

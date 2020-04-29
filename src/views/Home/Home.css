@@ -10,7 +10,7 @@
   }
 
   .home-buttons {
-    align-self: center;
+    align-self: flex-end;
   }
 }
 
@@ -47,7 +47,7 @@
 .home-paragraf {
   color: #111c1e;
   font-size: small;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
 .home-buttons {

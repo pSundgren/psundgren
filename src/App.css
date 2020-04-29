@@ -27,10 +27,6 @@ html {
 }
 
 @media (max-width: 770px) {
-  .app-container {
-    max-width: 85vw;
-  }
-
   nav {
     flex-direction: row;
   }

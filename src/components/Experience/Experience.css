@@ -1,7 +1,15 @@
 .nav-buttons {
+  margin-top: 2em;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 770px) {
+  .nav-buttons {
+    justify-content: flex-end;
+  }
 }
 
 .exp-heading {

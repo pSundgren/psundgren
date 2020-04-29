@@ -26,7 +26,6 @@ function Home() {
           <p className="home-paragraf">{data.about}</p>
           <div className="home-buttons">
             <Button to="/work" type="work" title="Work" />
-            <Button to="/experience" type="experience" title="Experience" />
             <Button to="/projects" type="project" title="Projects" />
           </div>
           <p className="home-paragraf">{data['nav-text']}</p>

@@ -1,13 +1,4 @@
 {
-  "experiences": [
-    {
-      "imgPath": "nordic.jpg",
-      "title": "Event volunteer at Noridc.js",
-      "employer": "Confetti",
-      "desc": "I got the oppertunity to work as a volunteer during the 2019 conference of Nordic.js and Nordic.design. I was a part of the social media team which mean I, with others, was responsible for the social media channels of the event such as twitter, facebook, twitch, instagram and also the support queue. This was a really fun event since you got to learn alot from very skilled programmers and designers at the same time as you were working.",
-      "skills": [""]
-    }
-  ],
   "work": [
     {
       "imgPath": "acino.jpg",
@@ -15,6 +6,13 @@
       "employer": "Acino AB",
       "desc": "During the summer of 2019 I worked as a software developer at a consulting firm. I worked on an inhouse project that is planned to be used at a day-to-day basis. During this summer my main task was design and front-end development but it also included back-end development and testing. The team consisted of four developers and two project leaders that examined the project and reviewed the code that we wrote.",
       "skills": ["React", "TypeScript", "Redux", "C#", ".NET Core 2"]
+    },
+    {
+      "imgPath": "nordic.jpg",
+      "title": "Event volunteer at Noridc.js",
+      "employer": "Confetti",
+      "desc": "I got the oppertunity to work as a volunteer during the 2019 conference of Nordic.js and Nordic.design. I was a part of the social media team which mean I, with others, was responsible for the social media channels of the event such as twitter, facebook, twitch, instagram and also the support queue. This was a really fun event since you got to learn alot from very skilled programmers and designers at the same time as you were working.",
+      "skills": [""]
     }
   ],
   "projects": [
