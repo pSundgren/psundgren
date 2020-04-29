@@ -9,7 +9,7 @@
     },
     {
       "imgPath": "nordic.jpg",
-      "title": "Event volunteer at Noridc.js",
+      "title": "Nordic.js / Nordic.design",
       "employer": "Confetti",
       "desc": "I got the oppertunity to work as a volunteer during the 2019 conference of Nordic.js and Nordic.design. I was a part of the social media team which mean I, with others, was responsible for the social media channels of the event such as twitter, facebook, twitch, instagram and also the support queue. This was a really fun event since you got to learn alot from very skilled programmers and designers at the same time as you were working.",
       "skills": [""]
@@ -18,7 +18,8 @@
   "projects": [
     {
       "imgPath": "this-portfolio.jpg",
-      "title": "This portfolio",
+      "title": "Online portfolio",
+      "employer": "Design & front-end",
       "desc": "To further work on my skill with web development / design I created this online portfolio using React after designing it in Adobe Xd. The portfolio is strucured in a way that all the information (e.g. these experiences) are stored within .json files. This is to made it easier to modify the data but also so that anyone can use the this portfolio as a template.",
       "skills": ["React", "JavaScript", "Adobe Xd"]
     }
