@@ -19,6 +19,7 @@ import Footer from './components/Footer/Footer';
 
 /* Styling */
 import './App.css';
+import './colorschemes/Blue.css';
 
 /* Navbar for the app */
 function Header() {

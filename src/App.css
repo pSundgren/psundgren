@@ -32,11 +32,6 @@ html {
   }
 }
 
-::selection {
-  background: #1b455d;
-  color: #f6f0ec;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -66,7 +61,6 @@ header {
 }
 
 .divider {
-  background-color: #8f989f;
   border: none;
   border-radius: 100em;
 

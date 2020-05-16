@@ -1,0 +1,87 @@
+/**
+ * COMPONENTS
+ **/
+
+/* Button.js */
+button {
+  border: 0.1em solid #1b455d;
+  color: #1b455d;
+}
+
+.button-svg {
+  fill: #1b455d;
+}
+
+/* ContactBar.js */
+.contact-stripe {
+  background-color: #1b455d;
+}
+
+.contact-svg {
+  fill: #1b455d !important;
+}
+
+/* ExperienceItem.js */
+.experience-img {
+  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.2);
+}
+
+/* Footer.js */
+.footer {
+  background-color: #1b455d;
+  color: #f6f0ec;
+}
+
+.footer-svg {
+  fill: #f6f0ec !important;
+}
+
+/* Skill.js */
+.skill {
+  color: #608ea3;
+}
+
+/* SVGLink.js */
+svg {
+  fill: #608ea3;
+}
+
+svg:hover {
+  fill: #1b455d;
+}
+
+/**
+ * VIEWS
+ **/
+
+/* Home.js */
+.home-img {
+  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.6);
+}
+
+.home-name {
+  color: #111c1e;
+}
+
+.home-title {
+  color: #111c1e;
+}
+
+.home-paragraf {
+  color: #111c1e;
+}
+
+/* App.js */
+
+body {
+  background-color: #f6f0ec;
+}
+
+::selection {
+  background: #1b455d;
+  color: #f6f0ec;
+}
+
+.divider {
+  background-color: #8f989f;
+}

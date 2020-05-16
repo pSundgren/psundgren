@@ -20,7 +20,6 @@
   height: auto;
   opacity: 0.8;
   margin: 0 2em;
-  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.6);
 }
 
 .home-text {
@@ -32,20 +31,17 @@
 }
 
 .home-name {
-  color: #111c1e;
   font-size: normal;
   font-weight: normal;
 }
 
 .home-title {
-  color: #111c1e;
   font-size: medium;
   font-weight: normal;
   margin-bottom: 1em;
 }
 
 .home-paragraf {
-  color: #111c1e;
   font-size: small;
   margin-bottom: 2em;
 }

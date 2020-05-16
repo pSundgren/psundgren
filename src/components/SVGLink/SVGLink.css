@@ -2,9 +2,4 @@ svg {
   cursor: pointer;
   width: 1.5em;
   height: auto;
-  fill: #608ea3;
-}
-
-svg:hover {
-  fill: #1b455d;
 }

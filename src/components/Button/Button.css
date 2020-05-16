@@ -5,10 +5,8 @@ button {
 
   font-family: 'Sen', sans-serif;
   font-size: small;
-  border: 0.1em solid #1b455d;
   background-color: transparent;
   transition: 0.2s ease-in-out;
-  color: #1b455d;
   cursor: pointer;
   opacity: 0.5;
 
@@ -23,6 +21,5 @@ button:hover {
 }
 
 .button-svg {
-  fill: #1b455d;
   padding-right: 0.5em;
 }

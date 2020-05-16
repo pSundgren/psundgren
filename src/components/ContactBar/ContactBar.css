@@ -22,7 +22,6 @@
 }
 
 .contact-stripe {
-  background-color: #1b455d;
   border: none;
   border-top-left-radius: 100em;
   border-top-right-radius: 100em;
@@ -32,7 +31,6 @@
 }
 
 .contact-svg {
-  fill: #1b455d !important;
   padding-bottom: 0.5em;
   width: 1.3em;
   height: auto;
