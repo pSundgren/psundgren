@@ -16,3 +16,13 @@
   position: absolute;
   bottom: 0;
 }
+
+.exp-list {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.5em;
+}
+
+.exp-item {
+  padding-right: 2em;
+}

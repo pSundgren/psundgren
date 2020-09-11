@@ -5,6 +5,7 @@ import FadeIn from "react-fade-in";
 import * as data from "../../data/Home.json";
 
 /* Components */
+import Experience from "../../components/Experience/Experience";
 
 /* Styling */
 import "./Home.css";
@@ -24,6 +25,9 @@ function Home() {
           <h2 className="home-title">{data.title}</h2>
           <p className="home-paragraf">{data.about}</p>
         </div>
+      </div>
+      <div className="home-container">
+        <Experience data={["Hej", "lol"]} />
       </div>
     </FadeIn>
   );
