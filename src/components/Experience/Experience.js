@@ -1,19 +1,20 @@
 import React from "react";
+import ExpressSVG from "../SVG/ExpressSVG";
 
 /* Components */
+import ReactSVG from "../SVG/ReactSVG";
 
 /* Styling */
 import "./Experience.css";
 
 /* Main render function */
-function Experience(props) {
+function Experience() {
   return (
     <div>
       <h1 className="home-name">I've got experience with</h1>
       <div className="exp-list">
-        {props.data.map((exp) => {
-          return <div className="exp-item">Hejsan</div>;
-        })}
+        <ReactSVG />
+        <ExpressSVG />
       </div>
     </div>
   );

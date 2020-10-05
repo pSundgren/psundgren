@@ -27,7 +27,7 @@ function Home() {
         </div>
       </div>
       <div className="home-container">
-        <Experience data={["Hej", "lol"]} />
+        <Experience />
       </div>
     </FadeIn>
   );

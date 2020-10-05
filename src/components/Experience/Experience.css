@@ -25,4 +25,11 @@
 
 .exp-item {
   padding-right: 2em;
+  height: 2em;
+  width: auto;
+  cursor: auto;
+}
+
+.exp-item:hover {
+  fill: #608ea3;
 }
