@@ -11,8 +11,8 @@ import LessSVG from '../ExperienceIcons/LessSVG';
 import AdobeCCSVG from '../ExperienceIcons/AdobeCCSVG';
 import DatabaseSVG from '../ExperienceIcons/DatabaseSVG';
 import TypeScriptSVG from '../ExperienceIcons/TypeScriptSVG';
-import JavaScriptSVG from '../ExperienceIcons/JavaScriptSVG';
 import CSharpSVG from '../ExperienceIcons/CSharpSVG';
+import JavaScriptSVG from '../ExperienceIcons/JavaScriptSVG';
 import CSVG from '../ExperienceIcons/CSVG';
 
 function ExperienceList() {
@@ -45,11 +45,11 @@ function ExperienceList() {
       <ExperienceIcons title="JavaScript">
         <JavaScriptSVG />
       </ExperienceIcons>
+            <ExperienceIcons title="C#">
+        <CSharpSVG />
+      </ExperienceIcons>
       <ExperienceIcons title="Java">
         <JavaSVG />
-      </ExperienceIcons>
-      <ExperienceIcons title="C#">
-        <CSharpSVG />
       </ExperienceIcons>
       <ExperienceIcons title="C">
         <CSVG />
