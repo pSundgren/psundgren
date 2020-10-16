@@ -27,7 +27,7 @@ function ExperienceList() {
       <ExperienceIcons title="Node.js">
         <NodeSVG />
       </ExperienceIcons>
-      <ExperienceIcons title="HTML5">
+      <ExperienceIcons title="HTML5 &amp; CSS3">
         <HtmlSVG />
       </ExperienceIcons>
       <ExperienceIcons title="LESS.js">
@@ -36,7 +36,7 @@ function ExperienceList() {
       <ExperienceIcons title="Adobe CC">
         <AdobeCCSVG />
       </ExperienceIcons>
-      <ExperienceIcons title="SQL & NoSQL">
+      <ExperienceIcons title="SQL &amp; NoSQL">
         <DatabaseSVG />
       </ExperienceIcons>
       <ExperienceIcons title="TypeScript">

@@ -13,6 +13,8 @@ function Footer() {
             <p>pontus.sundgren@umu.se</p>
           </a>
         </li>
+      </ul>
+      <ul className="footer-list">
         <li>
           <p>&copy; Copyright, 2020</p>
         </li>
