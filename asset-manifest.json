@@ -1,39 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1a59a6f.chunk.css",
-    "main.js": "/static/js/main.326a60fb.chunk.js",
-    "main.js.map": "/static/js/main.326a60fb.chunk.js.map",
+    "main.css": "/static/css/main.bd2f04df.chunk.css",
+    "main.js": "/static/js/main.0205e1f6.chunk.js",
+    "main.js.map": "/static/js/main.0205e1f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82d15cf4.js",
     "runtime-main.js.map": "/static/js/runtime-main.82d15cf4.js.map",
-    "static/js/2.6498bc09.chunk.js": "/static/js/2.6498bc09.chunk.js",
-    "static/js/2.6498bc09.chunk.js.map": "/static/js/2.6498bc09.chunk.js.map",
+    "static/js/2.d7e42f26.chunk.js": "/static/js/2.d7e42f26.chunk.js",
+    "static/js/2.d7e42f26.chunk.js.map": "/static/js/2.d7e42f26.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.40a60bbb9e64c6fcef91a2ec91e13b40.js": "/precache-manifest.40a60bbb9e64c6fcef91a2ec91e13b40.js",
+    "precache-manifest.f312526edc2b8660ccc9e8b23a45f858.js": "/precache-manifest.f312526edc2b8660ccc9e8b23a45f858.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e1a59a6f.chunk.css.map": "/static/css/main.e1a59a6f.chunk.css.map",
-    "static/js/2.6498bc09.chunk.js.LICENSE.txt": "/static/js/2.6498bc09.chunk.js.LICENSE.txt",
-    "static/media/acino.jpg": "/static/media/acino.6ae3f551.jpg",
-    "static/media/contact.svg": "/static/media/contact.1cb1d431.svg",
-    "static/media/discord.svg": "/static/media/discord.41484d92.svg",
-    "static/media/email.svg": "/static/media/email.e0f298aa.svg",
-    "static/media/experience.svg": "/static/media/experience.cbd9d880.svg",
-    "static/media/github.svg": "/static/media/github.1bb02710.svg",
-    "static/media/home.svg": "/static/media/home.2f9e5012.svg",
-    "static/media/instagram.svg": "/static/media/instagram.4c7ce1b0.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.5b238434.svg",
-    "static/media/me-irl.jpeg": "/static/media/me-irl.2ac989f2.jpeg",
-    "static/media/nordic.jpg": "/static/media/nordic.1397bcad.jpg",
-    "static/media/poorpeon.jpg": "/static/media/poorpeon.1868e983.jpg",
-    "static/media/project.svg": "/static/media/project.36c589df.svg",
-    "static/media/ps.svg": "/static/media/ps.c89cd0be.svg",
-    "static/media/this-portfolio.jpg": "/static/media/this-portfolio.a6b68dda.jpg",
-    "static/media/twitter.svg": "/static/media/twitter.89eaa742.svg",
-    "static/media/work.svg": "/static/media/work.e244c4e4.svg"
+    "static/css/main.bd2f04df.chunk.css.map": "/static/css/main.bd2f04df.chunk.css.map",
+    "static/js/2.d7e42f26.chunk.js.LICENSE.txt": "/static/js/2.d7e42f26.chunk.js.LICENSE.txt",
+    "static/media/me-irl.jpeg": "/static/media/me-irl.2ac989f2.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.82d15cf4.js",
-    "static/js/2.6498bc09.chunk.js",
-    "static/css/main.e1a59a6f.chunk.css",
-    "static/js/main.326a60fb.chunk.js"
+    "static/js/2.d7e42f26.chunk.js",
+    "static/css/main.bd2f04df.chunk.css",
+    "static/js/main.0205e1f6.chunk.js"
   ]
 }
