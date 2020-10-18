@@ -7,7 +7,7 @@ function Project() {
     
     return (
         <div className="proj-container">
-            <h1 className="proj-heading">My experience</h1>
+            <h1 className="proj-heading">My projects</h1>
             <p className="proj-bodytext">This part is undergoing maintainence...</p>
         </div>
     );
