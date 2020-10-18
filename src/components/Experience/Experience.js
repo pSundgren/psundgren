@@ -1,7 +1,7 @@
 import React from "react";
 
 /* Components */
-import ExperienceList from '../ExperienceIcons/ExperienceList'
+import ExperienceList from './ExperienceList'
 
 /* Styling */
 import "./Experience.css";

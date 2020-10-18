@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 /* Header items */
-import HomeLink from './components/SVGLink/HomeLink';
-import GithubLink from './components/SVGLink/GithubLink';
-import LinkedinLink from './components/SVGLink/LinkedinLink';
-import TwitterLink from './components/SVGLink/TwitterLink';
-import InstagramLink from './components/SVGLink/InstagramLink';
+import HomeLink from './components/SVGS/SVGLink/HomeLink';
+import GithubLink from './components/SVGS/SVGLink/GithubLink';
+import LinkedinLink from './components/SVGS/SVGLink/LinkedinLink';
+import TwitterLink from './components/SVGS/SVGLink/TwitterLink';
+import InstagramLink from './components/SVGS/SVGLink/InstagramLink';
 
 /* Views */
 import Home from './views/Home/Home';

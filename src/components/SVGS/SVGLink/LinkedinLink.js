@@ -1,7 +1,7 @@
 import React from 'react';
 
 /* Data import */
-import * as data from '../../data/SocialLinks.json';
+import * as data from '../../../data/SocialLinks.json';
 
 /* Styling */
 import './SVGLink.css';

@@ -6,6 +6,7 @@ import * as data from "../../data/Home.json";
 
 /* Components */
 import Experience from "../../components/Experience/Experience";
+import Project from '../../components/Project/Project';
 
 /* Styling */
 import "./Home.css";
@@ -28,6 +29,9 @@ function Home() {
       </div>
       <div className="home-container">
         <Experience />
+      </div>
+      <div className="home-container">
+        <Project />
       </div>
     </FadeIn>
   );
