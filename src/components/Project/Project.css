@@ -1,0 +1,14 @@
+.proj-container {
+  border-radius: 1em;
+  padding: 2em;
+  width: 100%;
+}
+
+.proj-heading {
+  font-weight: normal;
+}
+
+.proj-bodytext {
+  font-size: small;
+  margin-top: 1em;
+}

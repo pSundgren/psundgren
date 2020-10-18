@@ -50,6 +50,24 @@ svg:hover {
   fill: #1b455d;
 }
 
+/* Experience.js */
+.exp-container {
+  background-color: #1b455d;
+  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.6);
+  color: #f6f0ec;
+}
+
+.exp-icon-title {
+  color: #608ea3;
+}
+
+/* Project.js */
+.proj-container {
+  background-color: #608ea3;
+  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.2);
+  color: #f6f0ec;
+}
+
 /**
  * VIEWS
  **/
@@ -72,7 +90,6 @@ svg:hover {
 }
 
 /* App.js */
-
 body {
   background-color: #f6f0ec;
 }
