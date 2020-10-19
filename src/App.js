@@ -10,8 +10,6 @@ import InstagramLink from './components/SVGS/SVGLink/InstagramLink';
 
 /* Views */
 import Home from './views/Home/Home';
-import Projects from './views/Projects/Projects';
-import Work from './views/Work/Work';
 
 /* Components */
 import ContactBar from './components/ContactBar/ContactBar';
@@ -40,12 +38,6 @@ function AppSwitch() {
   return (
     <div className="app-container">
       <Switch>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/work">
-          <Work />
-        </Route>
         <Route path="/">
           <Home />
         </Route>

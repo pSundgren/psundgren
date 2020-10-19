@@ -21,7 +21,7 @@
 
 .proj-heading {
   font-weight: normal;
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
 }
 
 .proj-bodytext {
@@ -43,18 +43,20 @@
 .proj-img {
   height: 13em;
   width: auto;
+  border-radius: 0.3em;
 }
 
 .proj-item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 0 2em 0;
+  margin: 0 0 5em 0;
 }
 
 .proj-text {
   display: flex;
   flex-direction: column;
+  padding-top: 2em;
 }
 
 .proj-exp {
