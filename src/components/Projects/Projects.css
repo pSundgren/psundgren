@@ -1,16 +1,17 @@
 .proj-container {
   padding: 2em 0 2em 0;
-  width: 85%;
+  width: 100%;
 }
 
 @media (max-width: 770px) {
   .proj-list {
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }
 
 .proj-desc {
   font-size: x-small;
+  margin-bottom: 3em;
 }
 
 .proj-heading {
@@ -27,17 +28,18 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .proj-title {
-  font-size: small;
+  font-size: x-small;
 }
 
 .proj-img {
-  height: 15em;
+  height: 14em;
   width: auto;
 }
 
 .proj-item {
-  margin: 0 1em 1em 0;
+  margin: 0 0 2em 0;
 }

@@ -12,11 +12,14 @@ function Projects() {
             <h1 className="proj-heading">My projects</h1>
             <p className="proj-desc">These are some of my projects that I've designed and, in some cases, developed. Note that not all of these are live.</p>
             <div className="proj-list">
-                <ProjectItem title="Cycl, Feedback tool">
+                <ProjectItem title="Cycl, Paradox Interactive">
                     <img src={require("../../images/cycl.png")} alt="" className="proj-img"/>
                 </ProjectItem>
                 <ProjectItem title="Bastubacken Incentive & Spa Sweden AB">
                     <img src={require("../../images/bastubacken.png")} alt="" className="proj-img"/>
+                </ProjectItem>
+                <ProjectItem title="Alumntorget, Umeå University">
+                    <img src={require("../../images/alumntorget.png")} alt="" className="proj-img"/>
                 </ProjectItem>
             </div>
         </div>
