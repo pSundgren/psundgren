@@ -1,0 +1,43 @@
+.proj-container {
+  padding: 2em 0 2em 0;
+  width: 85%;
+}
+
+@media (max-width: 770px) {
+  .proj-list {
+    justify-content: center;
+  }
+}
+
+.proj-desc {
+  font-size: x-small;
+}
+
+.proj-heading {
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.proj-bodytext {
+  font-size: small;
+  margin-top: 1em;
+}
+
+.proj-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.proj-title {
+  font-size: small;
+}
+
+.proj-img {
+  height: 15em;
+  width: auto;
+}
+
+.proj-item {
+  margin: 0 1em 1em 0;
+}

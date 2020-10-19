@@ -63,9 +63,11 @@ svg:hover {
 
 /* Project.js */
 .proj-container {
-  background-color: #608ea3;
-  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.2);
-  color: #f6f0ec;
+  color: #111c1e;
+}
+
+.proj-title {
+  color: #608ea3;
 }
 
 /**
