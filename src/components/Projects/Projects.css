@@ -5,7 +5,8 @@
 
 @media (max-width: 770px) {
   .proj-list {
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center !important;
   }
 }
 
