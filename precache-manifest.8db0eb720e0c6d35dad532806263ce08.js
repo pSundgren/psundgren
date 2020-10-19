@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "734bb003c89828e32e9b77129b067d14",
+    "revision": "771ea8266dac33c4770675e212bbd387",
     "url": "/index.html"
   },
   {
-    "revision": "3d8a5f6b8caeb0fe7b90",
+    "revision": "5d57e3ed0c87181497f8",
     "url": "/static/css/main.182bfdc2.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d7e42f26.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d8a5f6b8caeb0fe7b90",
-    "url": "/static/js/main.461e505b.chunk.js"
+    "revision": "5d57e3ed0c87181497f8",
+    "url": "/static/js/main.febc042f.chunk.js"
   },
   {
     "revision": "78595544146737490928",
     "url": "/static/js/runtime-main.82d15cf4.js"
-  },
-  {
-    "revision": "5f2b04e40b4d10c438a7da86b7a78788",
-    "url": "/static/media/alumntorget.5f2b04e4.png"
   },
   {
     "revision": "bcd7125d5921326ca9adae098eb3f0e0",
@@ -38,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2ac989f2f7590d7892a6474bbc37f8a6",
     "url": "/static/media/me-irl.2ac989f2.jpeg"
+  },
+  {
+    "revision": "beb35e2b2c875bd38436cdf1e6dd95ee",
+    "url": "/static/media/seuil.beb35e2b.png"
   }
 ]);

@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.182bfdc2.chunk.css",
-    "main.js": "/static/js/main.461e505b.chunk.js",
-    "main.js.map": "/static/js/main.461e505b.chunk.js.map",
+    "main.js": "/static/js/main.febc042f.chunk.js",
+    "main.js.map": "/static/js/main.febc042f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.82d15cf4.js",
     "runtime-main.js.map": "/static/js/runtime-main.82d15cf4.js.map",
     "static/js/2.d7e42f26.chunk.js": "/static/js/2.d7e42f26.chunk.js",
     "static/js/2.d7e42f26.chunk.js.map": "/static/js/2.d7e42f26.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b02fc2aac9068278f59baa4131328c1a.js": "/precache-manifest.b02fc2aac9068278f59baa4131328c1a.js",
+    "precache-manifest.8db0eb720e0c6d35dad532806263ce08.js": "/precache-manifest.8db0eb720e0c6d35dad532806263ce08.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.182bfdc2.chunk.css.map": "/static/css/main.182bfdc2.chunk.css.map",
     "static/js/2.d7e42f26.chunk.js.LICENSE.txt": "/static/js/2.d7e42f26.chunk.js.LICENSE.txt",
-    "static/media/alumntorget.png": "/static/media/alumntorget.5f2b04e4.png",
     "static/media/bastubacken.png": "/static/media/bastubacken.bcd7125d.png",
     "static/media/cycl.png": "/static/media/cycl.7ffccee1.png",
-    "static/media/me-irl.jpeg": "/static/media/me-irl.2ac989f2.jpeg"
+    "static/media/me-irl.jpeg": "/static/media/me-irl.2ac989f2.jpeg",
+    "static/media/seuil.png": "/static/media/seuil.beb35e2b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82d15cf4.js",
     "static/js/2.d7e42f26.chunk.js",
     "static/css/main.182bfdc2.chunk.css",
-    "static/js/main.461e505b.chunk.js"
+    "static/js/main.febc042f.chunk.js"
   ]
 }
