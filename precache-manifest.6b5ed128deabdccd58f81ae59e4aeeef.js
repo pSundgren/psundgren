@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68b35742a83d48624e56c6c8f626e7e6",
+    "revision": "08af058ef961e32d20784bae7227f111",
     "url": "/index.html"
   },
   {
-    "revision": "ae6c21746b9287827a38",
-    "url": "/static/css/main.eec902d8.chunk.css"
+    "revision": "5ff33164c4b5fc484357",
+    "url": "/static/css/main.9086eadd.chunk.css"
   },
   {
     "revision": "04e948bcf009925b9b19",
@@ -16,20 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d7e42f26.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae6c21746b9287827a38",
-    "url": "/static/js/main.55d5bf8d.chunk.js"
+    "revision": "5ff33164c4b5fc484357",
+    "url": "/static/js/main.461e505b.chunk.js"
   },
   {
     "revision": "78595544146737490928",
     "url": "/static/js/runtime-main.82d15cf4.js"
   },
   {
-    "revision": "e22f1acd0a05af651ac6773804d6c8b8",
-    "url": "/static/media/bastubacken.e22f1acd.png"
+    "revision": "5f2b04e40b4d10c438a7da86b7a78788",
+    "url": "/static/media/alumntorget.5f2b04e4.png"
   },
   {
-    "revision": "d321a75126222d881accf096c4706efe",
-    "url": "/static/media/cycl.d321a751.png"
+    "revision": "bcd7125d5921326ca9adae098eb3f0e0",
+    "url": "/static/media/bastubacken.bcd7125d.png"
+  },
+  {
+    "revision": "7ffccee10f2fc3245c897d0c410c3a80",
+    "url": "/static/media/cycl.7ffccee1.png"
   },
   {
     "revision": "2ac989f2f7590d7892a6474bbc37f8a6",
