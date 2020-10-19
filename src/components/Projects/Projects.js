@@ -18,8 +18,8 @@ function Projects() {
                 <ProjectItem title="Bastubacken Incentive & Spa Sweden AB">
                     <img src={require("../../images/bastubacken.png")} alt="" className="proj-img"/>
                 </ProjectItem>
-                <ProjectItem title="Alumntorget, Umeå University">
-                    <img src={require("../../images/alumntorget.png")} alt="" className="proj-img"/>
+                <ProjectItem title="Seuil">
+                    <img src={require("../../images/seuil.png")} alt="" className="proj-img"/>
                 </ProjectItem>
             </div>
         </div>
