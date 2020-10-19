@@ -67,7 +67,15 @@ svg:hover {
 }
 
 .proj-title {
+  color: #111c1e;
+}
+
+.proj-exp {
   color: #608ea3;
+}
+
+.proj-img {
+  box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.6);
 }
 
 /**

@@ -1,0 +1,10 @@
+{
+        "cycl": {
+            "desc": "An inhouse project for a international company that was supposed to be used in their day-to-day operation. The project team consisted of 5 group members with similar expertise. The workload consisted of front- and backend development from scratch, UI/UX design, and user testing.",
+            "exp": ["React.js", "Express.js", "MongoDB", "MaterialUI", "Adobe CC"]
+        },
+        "seuil": {
+            "desc": "As a fun project for myself I decided to mock up an online store. This was called Seuil after the french word for threshold. The design was based on a moodboard that I created from various outfits that I found on pinterest.",
+            "exp": ["Adobe CC"]
+        }
+}

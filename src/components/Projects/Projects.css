@@ -8,6 +8,10 @@
     flex-direction: column;
     justify-content: center !important;
   }
+
+  .proj-item {
+    flex-direction: column !important;
+  }
 }
 
 .proj-desc {
@@ -33,14 +37,41 @@
 }
 
 .proj-title {
-  font-size: x-small;
+  font-size: medium;
 }
 
 .proj-img {
-  height: 14em;
+  height: 13em;
   width: auto;
 }
 
 .proj-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin: 0 0 2em 0;
+}
+
+.proj-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-exp {
+  font-size: x-small;
+  font-weight: bold;
+  padding: 2em 1em 1em 1em;
+}
+
+.proj-exp-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  margin-left: 3em;
+}
+
+.left {
+  margin-right: 3em;
 }
