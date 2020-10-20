@@ -13,6 +13,10 @@
   .home-buttons {
     align-self: flex-end;
   }
+
+  .home-img {
+    margin: 0 !important;
+  }
 }
 
 .home-img {

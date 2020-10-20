@@ -12,7 +12,7 @@ function ProjectItem(props) {
                             <div className="proj-exp-list">
                                 {props.exp.map((exp) => {
                                     return (
-                                        <p className="proj-exp">
+                                        <p className="proj-exp" key={exp}>
                                             {exp}
                                         </p>
                                     )
@@ -31,7 +31,7 @@ function ProjectItem(props) {
                             <div className="proj-exp-list">
                                 {props.exp.map((exp) => {
                                     return (
-                                        <p className="proj-exp">
+                                        <p className="proj-exp" key={exp}>
                                             {exp}
                                         </p>
                                     )

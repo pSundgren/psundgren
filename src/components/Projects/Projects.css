@@ -1,16 +1,24 @@
 .proj-container {
-  padding: 2em 0 2em 0;
+  margin: 2em 0 2em 0;
   width: 100%;
 }
 
 @media (max-width: 770px) {
   .proj-list {
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: center !important;
   }
 
   .proj-item {
     flex-direction: column !important;
+  }
+
+  .left {
+    margin-right: 0 !important;
+  }
+
+  .right {
+    margin-left: 0 !important;
   }
 }
 
@@ -41,7 +49,7 @@
 }
 
 .proj-img {
-  height: 13em;
+  height: 14em;
   width: auto;
   border-radius: 0.3em;
 }
@@ -56,7 +64,7 @@
 .proj-text {
   display: flex;
   flex-direction: column;
-  padding-top: 2em;
+  padding: 2em 0 2em 0;
 }
 
 .proj-exp {
