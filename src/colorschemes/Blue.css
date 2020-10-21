@@ -61,6 +61,10 @@ svg:hover {
   color: #608ea3;
 }
 
+.exp-item:hover {
+  fill: #608ea3;
+}
+
 /* Project.js */
 .proj-container {
   color: #111c1e;

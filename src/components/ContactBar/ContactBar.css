@@ -1,9 +1,3 @@
-@media (max-width: 770px) {
-  .contact-bar {
-    visibility: hidden;
-  }
-}
-
 .contact-bar {
   position: -webkit-sticky;
   position: sticky;
@@ -21,6 +15,12 @@
   align-items: center;
 }
 
+.contact-svg {
+  padding-bottom: 0.5em;
+  width: 1.3em;
+  height: auto;
+}
+
 .contact-stripe {
   border: none;
   border-top-left-radius: 100em;
@@ -30,8 +30,8 @@
   height: 4em;
 }
 
-.contact-svg {
-  padding-bottom: 0.5em;
-  width: 1.3em;
-  height: auto;
+@media (max-width: 770px) {
+  .contact-bar {
+    visibility: hidden;
+  }
 }
