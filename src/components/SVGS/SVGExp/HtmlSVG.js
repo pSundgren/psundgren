@@ -3,7 +3,7 @@ import React from 'react';
 function HtmlSVG() {
 	return (
 		<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="2000px" className="exp-icon"
-			height="2000px" viewBox="0 0 2000 2000" enable-background="new 0 0 2000 2000">
+			height="2000px" viewBox="0 0 2000 2000">
 			<g id="Logo_artwork">
 			</g>
 			<g id="Guides_to_delete">

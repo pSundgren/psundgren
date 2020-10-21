@@ -27,7 +27,7 @@ class ProjectItem extends React.Component {
     renderFunction = () => {
         const { imgOrientaiton, exp } = this.props
         const { isMobile } = this.state
-        
+
         if (imgOrientaiton === 'RIGHT' && !isMobile) {
             return (
                 <div className="proj-item">
