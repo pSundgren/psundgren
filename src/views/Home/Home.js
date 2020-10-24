@@ -7,6 +7,7 @@ import * as data from "../../data/Home.json";
 /* Components */
 import Experience from "../../components/Experience/Experience";
 import Projects from '../../components/Projects/Projects';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 /* Styling */
 import "./Home.css";
@@ -32,6 +33,9 @@ function Home() {
       </div>
       <div className="home-container">
         <Projects />
+      </div>
+      <div className="home-container">
+        <ContactForm />
       </div>
     </FadeIn>
   );

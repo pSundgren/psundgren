@@ -82,6 +82,16 @@ svg:hover {
   box-shadow: 0 0.2em 0.5em rgba(96, 142, 163, 0.6);
 }
 
+/* ContactForm */
+
+.contact-mail {
+  color: #1b455d;
+}
+
+.contact-mail:hover {
+  color: #608ea3;
+}
+
 /**
  * VIEWS
  **/

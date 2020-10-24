@@ -9,13 +9,6 @@ function Footer() {
     <div className="footer">
       <ul className="footer-list">
         <li>
-          <a href="mailto:pontus.sundgren@umu.se">
-            <p>pontus.sundgren@umu.se</p>
-          </a>
-        </li>
-      </ul>
-      <ul className="footer-list">
-        <li>
           <p>&copy; Copyright, 2020</p>
         </li>
       </ul>
