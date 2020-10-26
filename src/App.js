@@ -12,7 +12,7 @@ import InstagramLink from './components/SVGS/SVGLink/InstagramLink';
 import Home from './views/Home/Home';
 
 /* Components */
-import ContactBar from './components/ContactBar/ContactBar';
+/* import ContactBar from './components/ContactBar/ContactBar'; */
 import Footer from './components/Footer/Footer';
 
 /* Styling */
@@ -54,7 +54,7 @@ function App() {
         <Header />
         <AppSwitch />
       </Router>
-      <ContactBar />
+      {/* <ContactBar /> */}
       <Footer />
     </div>
   );
